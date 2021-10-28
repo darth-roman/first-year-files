@@ -8,7 +8,7 @@ void main(){
     int n, rest;
     printf("Enter your number\n");
     scanf("%d", &n);
-    rest = n % 2;
+    rest = n % 2; // n mod 2
     if(rest == 0){ // Boolean = True or False, 1 or 0
         printf("%d is Even\n", n);
     }else{
