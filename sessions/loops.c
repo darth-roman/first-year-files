@@ -9,8 +9,10 @@ int main(){
     // Loops in C = boucles
     // For loop = pour
     /*
-        for(int index = 0; index<=5;index=index+2 => index+=2){
+        for(int index = 0; index<=30 ; index=index+1 => index+=1){
         }
+
+        HERE
     */
     printf("From For Loop\n");
     for(int index=0; index<=10;index+=1){
@@ -26,7 +28,7 @@ int main(){
     printf("From While Loop\n");
     int index = 0;
     while(index<10){
-        printf("%d\n", index)
+        printf("%d\n", index);
         index+=1;
     }
 
