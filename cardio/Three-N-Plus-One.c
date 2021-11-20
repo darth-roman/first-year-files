@@ -75,7 +75,8 @@ void main()
             printf("> %d \n", N);
 
         }else{
-            printf("Error, N must be Positive\n exiting ...");
+            printf("Error, N must be Positive\n exiting ...\n");
+            break;
         }
     }
     
