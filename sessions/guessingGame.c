@@ -5,16 +5,17 @@
 int main(){
     int correctNumber, ourNumber;
     correctNumber = 32;
-    // scanf("%d", &ourNumber);
-    // while(ourNumber==correctNumber){
-    //     printf("What is your guess? >> ");
-    //     scanf("%d", &ourNumber);
-    // }
-    do{
+    scanf("%d", &ourNumber);
+    while (ourNumber != correctNumber)
+    {
         printf("What is your guess? >> ");
         scanf("%d", &ourNumber);
-        printf("NOOB\n");
-    }while(ourNumber!=correctNumber);
+    }
+    // do{
+    //     printf("What is your guess? >> ");
+    //     scanf("%d", &ourNumber);
+    //     printf("NOOB\n");
+    // }while(ourNumber!=correctNumber);
     if(ourNumber==correctNumber){
         printf("GG\n");
     }

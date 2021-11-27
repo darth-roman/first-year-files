@@ -9,15 +9,18 @@ int main(){
     // Loops in C = boucles
     // For loop = pour
     /*
-        for(int index = 0; index<=30 ; index=index+1 => index+=1 +> index++){
+        for(int index = 0; index<=30 ; index=index+1 => index+=1 => index++){
         }
 
         HERE
     */
 
-     // Pour
+    // Pour
+    // pour i de 0 jusqua 10 pas 2{
+    //
+    //}
     printf("From For Loop\n");
-    for (int index = 0; index <= 10; index++)
+    for (int index = 1; index <= 600; index += 10)
     {
         printf("You have repeated this for %d times\n", index);
     }
@@ -38,18 +41,19 @@ int main(){
 
     // Tantque
     printf("From While Loop\n");
-    int index = 11;
+    int index = 0;
     while (index <= 10)
     {
         printf("You have repeated this for %d times\n", index);
-        index+=1;
+        index += 3;
     }
 
     printf("From Do..While Loop\n");
     int isRight = 0;
+    int counter = 0;
     // rpt ... jusqu'a, faire...tantque
     do{
-        printf("Hello World\n");
+        printf("Hello World %d\n", counter++);
     } while (isRight == 1);
 
     return 21;
