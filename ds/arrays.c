@@ -17,9 +17,17 @@ void main()
     rooms[10] = 11;
     rooms[11] = 12;
 
+    // CRUD = Create Read Update Delete
+
     for (int index = 0; index <= 11; index++)
     {
-        rooms[index] = index * 10;
+        if (rooms[index] == 10)
+        {
+            printf("%d your lucky number", rooms[index]);
+            break;
+        }
+
+        //rooms[index] = index * 10;
         printf("The INDEX : %d has the VALUE %d \n", index, rooms[index]);
     }
 }
